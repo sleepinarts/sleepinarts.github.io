@@ -1,0 +1,70 @@
+/* 
+    Document   : Style
+    Created on : 28-giu-2012, 0.06.13
+    Author     : Francesco
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+            a{
+                color: #F77A05
+            }
+
+          a:link {
+            text-decoration: none;
+            }
+          a:hover {
+            color: blue;
+            font-weight: bolder;
+            }
+          a:visited {
+            text-decoration: none;
+          }
+
+            a.menu_bottom{
+                color: yellow
+            }
+
+          a.menu_bottom:link {
+            text-decoration: none;
+            }
+          a.menu_bottom:hover {
+            color: blue;
+            font-weight: bolder;
+            }
+          a.menu_bottom:visited {
+            text-decoration: none;
+          }
+
+.boximg {
+  position: relative;
+  width: 180px; /* Stessa larghezza dell'immagine */
+  height: 145px; /* Stessa altezza dell'immagine */
+}
+div.boxtesto {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+  /* Per IE 5.5, 6 e 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* Per IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+span.testo {
+  padding: 0px;
+  color: #FFFFFF;
+  font: bold 14px Book Antiqua, Helvetica, Sans-Serif;
+  letter-spacing: 0px;
+}
